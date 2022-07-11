@@ -52,6 +52,7 @@
 }
 .conteiner .profile-card .profile-up .editar {
     margin-right: 37px;
+    
 }
 
 .conteiner .profile-card .profile-up .editar button {
@@ -60,6 +61,7 @@
     padding: 8px 10px;
     border: none;
     border-radius: 6px;
+    cursor: pointer;
 }
 
 
@@ -100,4 +102,82 @@
 }
 .conteiner .profile-card .profile-down .card3 {
     background-color: #725200;
+}
+
+/*-----------------------------------------------------------------*/
+@media(max-width: 760px) {
+    .conteiner .profile-card {
+        width: 50%;
+        height: 90%;
+    }
+    .conteiner .profile-card .profile-up {
+        flex-direction: column;
+        height: 40%;
+    }
+    .conteiner .profile-card .profile-up .perfil {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    .conteiner .profile-card .profile-up .perfil img {
+        margin: auto;
+    }
+    
+    .conteiner .profile-card .profile-up .editar {
+        margin: auto;
+        height: 100%;
+        align-items: flex-start;
+    }
+        
+    
+    .conteiner .profile-card .profile-down {
+        flex-direction: column;
+        
+    }
+    .conteiner .profile-card .profile-down .card {
+        width: 60%;
+        padding: 8px;
+        gap: 15px;
+    }
+    
+}
+
+
+
+/*--------------------------------------------------------------*/
+@media(min-width: 280px) and (max-width: 500px) {
+    .conteiner .profile-card {
+        width: 95%;
+        height: 90%;
+    }
+    .conteiner .profile-card .profile-up {
+        flex-direction: column;
+        height: 45%;
+    }
+    .conteiner .profile-card .profile-up .perfil {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    .conteiner .profile-card .profile-up .perfil img {
+        margin: auto;
+    }
+    
+    .conteiner .profile-card .profile-up .editar {
+        margin: auto;
+        height: 100%;
+        align-items: flex-start;
+    }
+        
+    
+    .conteiner .profile-card .profile-down {
+        flex-direction: column;
+        
+    }
+    .conteiner .profile-card .profile-down .card {
+        width: 65%;
+        padding: 7px;
+        
+    }
+    
 }
